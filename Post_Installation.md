@@ -10,7 +10,7 @@ _Default size of the Arduino RX buffer is 64Byte. This setup requires at least 2
 
 Change:  `__#define SERIAL_RX_BUFFER_SIZE 64` -> `__#define SERIAL_RX_BUFFER_SIZE 256`   
 
-Couple of usefull links to improve the situation.   
+Couple of usefull links.   
 - http://internetofhomethings.com/homethings/?p=927     
 - http://www.hobbytronics.co.uk/arduino-serial-buffer-size   
 
