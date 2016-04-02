@@ -4,4 +4,5 @@
 - [Open Electronics is the brainchild of a world leader in hobby electronics] (http://www.open-electronics.org)   
 - [Arduino Course for Absolute Beginners] (https://www.youtube.com/watch?v=09zfRaLEasY)    
 - [ESP8266 - Getting Started & Connected] (https://www.youtube.com/watch?v=z07zjfOHb8E)    
+- [MQTT] (http://mqtt.org/)    
 - [This project is using 3rd party libraries. The library bundle can be copied here to your local ...'Arduino/libraries' folder as such or alternatively you could download the latest versions from the original github location.] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/libraries/libraries.zip)  
