@@ -9,6 +9,5 @@
 - [Ultrasonic HC-SR04 library for Arduino by J.Rodrigo] (https://github.com/JRodrigoTech/Ultrasonic-HC-SR04)    
 - [RTC DS1307 library by Adafruit] (https://github.com/adafruit/RTClib)    
 - [Gyroscope + accelerometer MPU-6050 library for Arduino by Jeff Rowberg] (https://github.com/jrowberg/i2cdevlib)
-
-
-[The library bundle can be copied to your local ...'Arduino/libraries' folder as such or alternatively you could download the latest versions from the original github location.] (https://github.com/jraivio/IoT-Ralli-Vempain/tree/master/ArduinoCode/libraries)     
+- [Magneto HMC5883L library for Arduino by Jeff Rowberg] (https://github.com/jrowberg/i2cdevlib)
+[The library bundle can be copied to your local ...'Arduino/libraries' folder as such or alternatively you could download the latest versions from the original github location.] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/libraries/libraries.zip)     
