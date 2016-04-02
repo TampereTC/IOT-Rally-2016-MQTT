@@ -3,7 +3,7 @@
 [Improved version of IOT-Rally-2016 reference implementation] (https://github.com/TampereTC/IOT-Ralli-2016). MQTT part of the code on this repository is cloned from the team [IoT-Rally-2016-TechnoCrazy] (https://github.com/TampereTC/IoT-Rally-2016-TechnoCrazy) 
 ### Desciption:
 - [Description of the project](https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Description.md)   
-- Hardware architecture   
+- [Hardware architecture] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Hardware/README.md)  
 - Software architecture
 
 ### Getting start:
