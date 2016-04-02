@@ -1,4 +1,4 @@
-**Getting started with Arduino SW development environment:**    
+**Arduino SW development environment:**    
 - [Download IDE] (https://www.arduino.cc/en/Main/Software)    
 - [Instructions] (https://www.arduino.cc/en/Guide/Environment)     
 
@@ -9,7 +9,8 @@
 - [Ultrasonic HC-SR04 library for Arduino by J.Rodrigo] (https://github.com/JRodrigoTech/Ultrasonic-HC-SR04)    
 - [RTC DS1307 library by Adafruit] (https://github.com/adafruit/RTClib)    
 - [Gyroscope + accelerometer MPU-6050 library for Arduino by Jeff Rowberg] (https://github.com/jrowberg/i2cdevlib)
-- [Magneto HMC5883L library for Arduino by Jeff Rowberg] (https://github.com/jrowberg/i2cdevlib)   
+- [Magneto HMC5883L library for Arduino by Jeff Rowberg] (https://github.com/jrowberg/i2cdevlib)
+- [ELClient drivers by Jeelabs] (https://github.com/jeelabs/el-client)    
 
 __[You could also copy the library bundle to your local ...'Arduino/libraries' folder as such or alternatively you could download the latest versions from the original github location.] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/libraries/libraries.zip)__
 
