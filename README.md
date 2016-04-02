@@ -5,8 +5,8 @@
 ### [Description of the project](https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Description.md)
 ### Getting start
 - [Generic information about development environment] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/getting%20start.md)
-- Arduino IDE Installation 
-- Required changes to IDE
+- [Arduino IDE and 3rd party libraries] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Arduino%20IDE%20and%20libraries.md) 
+- Required post installation changes for Arduino IDE 
 - Configuring the device
 
 
