@@ -6,7 +6,7 @@ _Note that in order to use this version in Arduino then updates for esp-link SW 
 
 ### [Description of the project](https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Description.md)
 ### Getting start
-- Getting started with development environment (Generic information about the environment)
+- [Generic information about development environment] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/getting%20start.md)
 - Arduino IDE Installation 
 - Required changes to IDE
 - Configuring the device
