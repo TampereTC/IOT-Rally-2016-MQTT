@@ -1,6 +1,6 @@
 # Post installation steps
 
-## 1. Increasing size Arduino RX buffer   
+### 1. Increasing size Arduino RX buffer   
 _Default size of the Arduino RX buffer is 64Byte. This setup requires at least 256 Bytes_
 
 ###Hardware Serial Buffer Expansion   
@@ -14,5 +14,5 @@ Couple of usefull links.
 - http://internetofhomethings.com/homethings/?p=927     
 - http://www.hobbytronics.co.uk/arduino-serial-buffer-size    
 
-## 2. [Download the 3rd party libraries to the IDE env](https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Arduino%20IDE%20and%203rd%20party%20libraries.md)
+### 2. [Download the 3rd party libraries to the IDE env](https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Arduino%20IDE%20and%203rd%20party%20libraries.md)
 
