@@ -1,8 +1,8 @@
-**Arduino SW development environment:**    
+##Arduino SW development environment:  
 - [Download Arduino IDE] (https://www.arduino.cc/en/Main/Software)    
 - [Arduino IDE Instructions] (https://www.arduino.cc/en/Guide/Environment)     
 
-**Following 3rd party libraries in use:**   
+##Following 3rd party libraries in use:   
 - [Temperature & Humidity sensor DHT11, Adafruit version] (https://github.com/adafruit/DHT-sensor-library)     
 - [JSON string parser, by Benoit Blanchon] (https://github.com/bblanchon/ArduinoJson)    
 - [RFID Card reader MFRC522, by Miguel Balboa] (https://github.com/miguelbalboa/rfid)    
