@@ -7,5 +7,6 @@ Source code type of approach is mandatory. All used 3rd party libraries in this 
 
 ###Technology:    
 
-This robot is a Genuine IOT device. Internet access is based on the ESP8266 Wifi-bridge chipset. Communication with the cloud server takes place via a bi-directional MQTT protocol. The robot is act as MQTT client and MQTT broker is located to the cloud server by publishing sensor data to the cloud and subscribing control commands from MQTT broker.   
+This robot is a Genuine IOT device. Internet access is based on the ESP8266 Wifi-bridge chipset. Communication with the cloud server takes place via a bi-directional MQTT protocol. The robot is act as MQTT client and MQTT broker is located to the cloud server by publishing a sensor data to the cloud location and also subscribing control commands from MQTT broker.   
+
 ![alt tag] (http://www.ibm.com/developerworks/cloud/library/cl-mqtt-bluemix-iot-node-red-app/image001.png)
