@@ -12,6 +12,10 @@
 - [Magneto HMC5883L library for Arduino by Jeff Rowberg] (https://github.com/jrowberg/i2cdevlib)
 - [ELClient drivers by Jeelabs] (https://github.com/jeelabs/el-client)    
 
-__[You could also copy the library bundle to your local ...'Arduino/libraries' folder as such or alternatively you could download the latest versions from the original github location.] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/libraries/libraries.zip)__
+__[You could also copy the library bundle to your local ...'Arduino/libraries' folder as such or alternatively you could download the latest versions from the original github location.] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/libraries/libraries.zip?raw=true)__
+
+## Clone the code from this repository to under the Arduino folder
+- `# git clone https://github.com/TampereTC/IOT-Rally-2016-MQTT`
+- Or just copy the zip package of this [repository](https://github.com/TampereTC/IOT-Rally-2016-MQTT/archive/master.zip) and extract it under the `...Arduino` folder.
 
 
