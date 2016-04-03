@@ -162,15 +162,14 @@ void setup() {
     Serial.begin(115200); // Debugging
     delay(1000);
     Serial1.begin(115200);
-
-    Serial.println(SERIAL_RX_BUFFER_SIZE);
+    if (debugging == true) { Serial.println(SERIAL_RX_BUFFER_SIZE);}
     esp.wifiCb.attach(wifiCb); // wifi status change callback, optional (delete if not desired)
     bool ok;
     do {
       ok = esp.Sync();      // sync up with esp-link, blocks for up to 2 seconds
-      if (!ok) Serial.println("EL-Client sync failed!");
-    } while(!ok);
-    Serial.println("EL-Client synced!");
+      if (!ok) if (debugging == true) { Serial.println("EL-Client sync failed!"); }
+        } while(!ok);
+      if (debugging == true) {Serial.println("EL-Client synced!");}
   
     // Set-up callbacks for events and initialize with es-link.
     mqtt.connectedCb.attach(mqttConnected);
@@ -180,7 +179,7 @@ void setup() {
     mqtt.setup();
   
     //Serial.println("ARDUINO: setup mqtt lwt");
-    Serial.println("EL-MQTT ready");
+    if (debugging == true) { Serial.println("EL-MQTT ready");}
     
     delay(1000);
     Wire.begin(); // start I2C & RTC
@@ -189,7 +188,7 @@ void setup() {
     accelgyro.initialize();
     RTC.begin();
     if (! RTC.isrunning()) {
-      Serial.println("RTC is NOT running!");
+      if (debugging == true) { Serial.println("RTC is NOT running!");}
       // following line sets the RTC to the date & time this sketch was compiled
       //RTC.adjust(DateTime(__DATE__, __TIME__));
     }
@@ -299,6 +298,7 @@ void loop() {
           break;
       }*/
       mqtt.publish("iot-uplink", "{\"sensor\":\"drivedone\"}");
+      if (debugging == true) { Serial.println("{\"sensor\":\"drivedone\"}");}
      }           
   }  
 }
