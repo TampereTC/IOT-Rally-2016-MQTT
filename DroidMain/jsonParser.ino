@@ -11,8 +11,10 @@ void HandleIncomingJson() {
     int pin; int value; int ldelay;
     // Verify Json 
     if (JsonChar!=NULL && !root.success()) {
-      Serial.println("parseObject() failed: ");
-      Serial.println(JsonChar);
+      if (debugging == true) {
+        Serial.println("parseObject() failed: ");
+        Serial.println(JsonChar);
+      }
     }
     else {
         // Led pins 13-11 control
@@ -60,14 +62,13 @@ void HandleIncomingJson() {
         noTone(24);
       }
     }
-      // Debugging
-      Serial.println("-------");
-      Serial.println(command);
-      Serial.println(motor_active, DEC);
-      Serial.println(rightpower, DEC);
-      Serial.println(leftpower, DEC);
-      Serial.println(mdelay, DEC);
-    
+      if (debugging == true) {
+        Serial.println("-------");
+        Serial.println(command);
+        Serial.println(motor_active, DEC);
+        Serial.println(rightpower, DEC);
+        Serial.println(leftpower, DEC);
+        Serial.println(mdelay, DEC); }
     }
   // returning the default values
   stringComplete = false;
