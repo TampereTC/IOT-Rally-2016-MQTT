@@ -5,7 +5,7 @@
 
 void driveMotors()
 {
-  Serial.println(__func__);
+  if (debugging == true) { Serial.println(__func__);}
   
     /* This function will run the motors across the range of possible speeds.
      * Note that maximum speed is determined by the motor itself and the operating voltage. 
