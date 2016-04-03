@@ -27,7 +27,6 @@ void driveMotors()
 
     if (rpower < 256 && lpower < 256 ) {
       digitalWrite(in1, in1ena); digitalWrite(in2, in2ena); digitalWrite(in3, in3ena); digitalWrite(in4, in4ena);
-      if ( rightpower == 0 && leftpower == 0 ) { delay(100); }
       analogWrite(enA, lpower); analogWrite(enB, rpower);
     }
 }
