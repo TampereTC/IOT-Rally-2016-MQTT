@@ -4,7 +4,7 @@
 
 ###2. Download the 3rd party library bundle under the Arduino folder:
 
-[Download the 3rd party libraries] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/libraries/libraries.zip?raw=true) and extract the library bundle to your local PC to the ...Arduino/libraries' folder or alternatively you could download the latest versions from the original github location. 
+[Download the 3rd party libraries] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/libraries/libraries.zip?raw=true) and extract the library bundle to your local PC under the ...Arduino/libraries' folder or alternatively you could download the latest versions from the original github location. 
 
 Following 3rd party libraries in use:   
 - [Temperature & Humidity sensor DHT11, Adafruit version] (https://github.com/adafruit/DHT-sensor-library)     
