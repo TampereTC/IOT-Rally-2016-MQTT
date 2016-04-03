@@ -23,7 +23,7 @@ Wiring diagram is designed by [Fritzing tool.](http://fritzing.org/home/) The so
 - [Frame, Wheels and DC motor] (http://www.aliexpress.com/item/New-Motor-Smart-Robot-Car-Chassis-Kit-Speed-Encoder-Battery-Box-For-Arduino-Free-Shipping/1924502066.html)
 - [Battery 2 x 3.7V: 18650] (https://www.reddit.com/r/flashlight/wiki/18650)
 - [400 Point Breadboard] (http://www.aliexpress.com/item/400-Tie-Point-Interlocking-Solderless-mini-Breadboard-Free-Shipping-Dropshipping/1248613686.html)
-- [3.3v regulator: AMS1117] (http://www.aliexpress.com/item/1pc-DC-DC-AMS1117-1-2V-Step-Down-Voltage-Regulator-Adapter-Convertor-2P-Single-Row-Hot/32369895833.html)
+- [3.3v regulator: 2A recommended] (http://www.aliexpress.com/store/product/LM2596-LM2596S-LM2596S-ADJ-DC-DC-3-40V-Adjustable-Step-Down-Power-Supply-Module-Car-power/916106_1480308030.html)
 
 
 ###esp8266 - esp-link:    
