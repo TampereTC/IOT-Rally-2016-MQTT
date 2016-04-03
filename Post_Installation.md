@@ -13,6 +13,3 @@ Change:  `__#define SERIAL_RX_BUFFER_SIZE 64` -> `__#define SERIAL_RX_BUFFER_SIZ
 Couple of usefull links.   
 - http://internetofhomethings.com/homethings/?p=927     
 - http://www.hobbytronics.co.uk/arduino-serial-buffer-size    
-
-### 2. [Download the 3rd party libraries to the IDE env](https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Arduino%20IDE%20and%203rd%20party%20libraries.md)
-
