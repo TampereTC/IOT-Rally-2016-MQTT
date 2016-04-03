@@ -8,7 +8,7 @@
 void JsonReportSensorDHT() {
   // Create Json and publish
   String jsonDHT = String("{\"sensor\":\"temp_hum\",\"time\":\"" + TimeStr + "\",\"data\":[" + dht.readTemperature() + "," + dht.readHumidity() + "]}");
-  Serial.println(jsonDHT);
+  if (debugging == true) { Serial.println(jsonDHT);}
   memset(bufff, 0, 512);  jsonDHT.toCharArray(bufff, 512);
   mqtt.publish("iot-uplink", bufff);
   return;
@@ -19,7 +19,7 @@ void JsonReportSensorDHT() {
 void JsonReportSensorDistance(){
   // Create Json and publish
   String jsonDist = String("{\"sensor\":\"distance\",\"time\":\"" + TimeStr + "\",\"data\":[" + ultrasonic.Ranging(CM) + "]}");
-  Serial.println(jsonDist); // CM or INC
+  if (debugging == true) { Serial.println(jsonDist);}
   memset(bufff, 0, 512); jsonDist.toCharArray(bufff, 512);
   mqtt.publish("iot-uplink", bufff);
   return;
@@ -32,7 +32,7 @@ void JsonReportSensorAccAndGyro(){
   accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
   // Create Json and publish
   String jsonAccGyro = String("{\"sensor\":\"acc_gyro\",\"time\":\"" + TimeStr + "\",\"data\":[" + ax + "," + ay + "," + az +"," + gx +"," + gy + "," + gz + "]}");
-  Serial.println(jsonAccGyro);
+  if (debugging == true) { Serial.println(jsonAccGyro);}
   memset(bufff, 0, 512); jsonAccGyro.toCharArray(bufff, 512);
   mqtt.publish("iot-uplink", bufff);
   return;
@@ -45,7 +45,7 @@ void JsonReportSensorMagneto(){
   magneto.getHeading(&mx, &my, &mz);
   // Create Json and publish
   String jsonMagneto = String("{\"sensor\":\"magneto\",\"time\":\"" + TimeStr + "\",\"data\":[" + mx + "," + my + "," + mz + "]}");
-  Serial.println(jsonMagneto);
+  if (debugging == true) { Serial.println(jsonMagneto);}
   memset(bufff, 0, 512); jsonMagneto.toCharArray(bufff, 512);
   mqtt.publish("iot-uplink", bufff);
   return;
@@ -56,7 +56,7 @@ void JsonReportSensorMagneto(){
 void JsonReportSensorEdge() {
   // Create Json and publish
   String jsonEdge = String("{\"sensor\":\"edge\",\"time\":\"" + TimeStr + "\",\"data\":[" + left_edge + "," + right_edge + "]}");
-  Serial.println(jsonEdge);
+  if (debugging == true) { Serial.println(jsonEdge);}
   memset(bufff, 0, 512); jsonEdge.toCharArray(bufff, 512);
   mqtt.publish("iot-uplink", bufff);
   return;
@@ -88,7 +88,7 @@ void JsonReportSensorRFID() {
     }
     // Create Json and publish
     String jsonRfid = String("{\"sensor\":\"rfid\",\"data\":[" + NUID + "]}");
-    Serial.println(jsonRfid);
+    if (debugging == true) { Serial.println(jsonRfid);}
     memset(bufff, 0, 512); jsonRfid.toCharArray(bufff, 512);
     mqtt.publish("iot-uplink", bufff);
     return;
