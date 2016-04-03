@@ -6,7 +6,6 @@
 // Read temperature (C) and humidity values from DHT11 and publish json 
 
 void JsonReportSensorDHT() {
-
   // Create Json and publish
   String jsonDHT = String("{\"sensor\":\"temp_hum\",\"time\":\"" + TimeStr + "\",\"data\":[" + dht.readTemperature() + "," + dht.readHumidity() + "]}");
   Serial.println(jsonDHT);
@@ -18,7 +17,6 @@ void JsonReportSensorDHT() {
 // Read distance values from ultrasonic and publish json 
 
 void JsonReportSensorDistance(){
-
   // Create Json and publish
   String jsonDist = String("{\"sensor\":\"distance\",\"time\":\"" + TimeStr + "\",\"data\":[" + ultrasonic.Ranging(CM) + "]}");
   Serial.println(jsonDist); // CM or INC
@@ -30,7 +28,6 @@ void JsonReportSensorDistance(){
 // Read accelerometer and gyroscope raw values and publish json 
 
 void JsonReportSensorAccAndGyro(){
-  
   // read raw accel/gyro measurements from device
   accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
   // Create Json and publish
@@ -38,12 +35,12 @@ void JsonReportSensorAccAndGyro(){
   Serial.println(jsonAccGyro);
   memset(bufff, 0, 512); jsonAccGyro.toCharArray(bufff, 512);
   mqtt.publish("iot-uplink", bufff);
+  return;
 }
 
 // Read magneto raw values and publish json 
 
 void JsonReportSensorMagneto(){
-  
   // read raw magneto measurements from device
   magneto.getHeading(&mx, &my, &mz);
   // Create Json and publish
@@ -51,12 +48,12 @@ void JsonReportSensorMagneto(){
   Serial.println(jsonMagneto);
   memset(bufff, 0, 512); jsonMagneto.toCharArray(bufff, 512);
   mqtt.publish("iot-uplink", bufff);
+  return;
 }
 
 // Read line tracker values and publish json 
 
 void JsonReportSensorEdge() {
-  
   // Create Json and publish
   String jsonEdge = String("{\"sensor\":\"edge\",\"time\":\"" + TimeStr + "\",\"data\":[" + left_edge + "," + right_edge + "]}");
   Serial.println(jsonEdge);
@@ -68,7 +65,6 @@ void JsonReportSensorEdge() {
 // Read RFID tag value and publish json 
 
 void JsonReportSensorRFID() {
-  
   if ( ! rfid.PICC_ReadCardSerial()) return;
   // Serial.print(F("PICC type: "));
   MFRC522::PICC_Type piccType = rfid.PICC_GetType(rfid.uid.sak);
@@ -95,6 +91,7 @@ void JsonReportSensorRFID() {
     Serial.println(jsonRfid);
     memset(bufff, 0, 512); jsonRfid.toCharArray(bufff, 512);
     mqtt.publish("iot-uplink", bufff);
+    return;
   }
   else Serial.println(F("Card read previously."));
   rfid.PICC_HaltA(); // Halt PICC
