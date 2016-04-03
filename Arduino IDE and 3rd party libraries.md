@@ -16,6 +16,6 @@ __[You could also copy the library bundle to your local ...'Arduino/libraries' f
 
 ## Clone the code from this repository to under the Arduino folder
 - `# git clone https://github.com/TampereTC/IOT-Rally-2016-MQTT`
-- Or just copy the zip package of this [repository](https://github.com/TampereTC/IOT-Rally-2016-MQTT/archive/master.zip) and extract it under the `...Arduino` folder.
+- Or just downlod the zip package of this [repository](https://github.com/TampereTC/IOT-Rally-2016-MQTT/archive/master.zip) and extract it under the `...user/Arduino/` folder.
 
 
