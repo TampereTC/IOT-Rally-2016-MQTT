@@ -55,7 +55,7 @@ void JsonReportSensorMagneto(){
 
 void JsonReportSensorEdge() {
   // Create Json and publish
-  String jsonEdge = String("{\"sensor\":\"edge\",\"time\":\"" + TimeStr + "\",\"data\":[" + left_edge + "," + right_edge + "]}");
+  String jsonEdge = String("{\"sensor\":\"edge\",\"time\":\"" + TimeStr + "\",\"data\":[" + digitalRead(left_edge) + "," + digitalRead(right_edge) + "]}");
   if (debugging == true) { Serial.println(jsonEdge);}
   memset(bufff, 0, 512); jsonEdge.toCharArray(bufff, 512);
   mqtt.publish("iot-uplink", bufff);
