@@ -1,4 +1,4 @@
-###Configute network access   
+##Configute network access   
 ###1. Switch on the robot    
 ###2. Connect by your laptop to the esp-link wifi accesspoint (ESP xyzxyz)    
 
