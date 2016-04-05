@@ -11,7 +11,7 @@
 - [Generic information about development environment:] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/getting%20start.md)
 - [Arduino IDE and 3rd party libraries:] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Arduino%20IDE%20and%203rd%20party%20libraries.md) 
 - [Required post installation steps:] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Post_Installation.md) 
-- Configuring the device: 
+- [Configuring the device:] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/configure.md)
 
 
 _Note that in order to use this version then updates for esp-link SW is required as well, Release 2.2 beta2 or later. https://github.com/jeelabs/esp-link/releases._
