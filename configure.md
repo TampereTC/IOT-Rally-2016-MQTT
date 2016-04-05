@@ -11,7 +11,7 @@
 
 ###4. Activate MQTT and Configure MQTT broker address.   
 - Select "REST/MQTT"   
-- Select all MQTT specific options and define the server address    
+- Select all MQTT specific options, define the server address and define your client id   
 - Press "Update settings"      
 
 ![alt tag] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Hardware/Pictures/mqtt.png)    
