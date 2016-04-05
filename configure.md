@@ -5,7 +5,7 @@
 ![alt tag] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Hardware/Pictures/ssid_esp.png)   
    
 ###3. Login to the admin console of esp-link.   
-- Enter the address "192.168.4.1" to your browser    
+- Enter the address "192.168.4.1" into your browser    
  
 ![alt tag] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Hardware/Pictures/esp-link-address.png)    
 
