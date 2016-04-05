@@ -19,6 +19,8 @@
 ###5. Associate Wifi your network to the esp-link
 - Select "Wifi Station"
 - Select the Wifi station to connect and enter the valid password     
+- Press "Connect"  
+- Write down your new ip address!!!   
 
 ![alt tag] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Hardware/Pictures/wifi-network-association.png)   
 
