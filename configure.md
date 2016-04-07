@@ -1,6 +1,6 @@
 ##Configute network access   
 ###1. Switch on the robot    
-###2. Connect by your laptop to the esp-link wifi accesspoint (ESP xyzxyz)    
+###2. Connect by your computer to the esp-link wifi accesspoint (ESP xyzxyz)    
 
 ![alt tag] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Hardware/Pictures/ssid_esp.png)   
    
