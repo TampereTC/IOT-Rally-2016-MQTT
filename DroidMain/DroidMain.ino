@@ -4,7 +4,7 @@
 // 
 // Example code is based on Arduino Mega2560 
 //
-// Debugging mode, results is serial monitor (true = on, false = off)
+// Debugging mode, output visible via e.g arduino IDE serial monitor (true = on, false = off)
 boolean debugging = true;
 
 /* Temperature & Humidity sensor DHT11 lib & setup
