@@ -10,12 +10,13 @@ void driveMotors()
     /* This function will run the motors across the range of possible speeds.
      * Note that maximum speed is determined by the motor itself and the operating voltage. 
      * the PWM values sent by analogWrite() are fractions of the maximum speed possible by your hardware.
-     * As an input value the relative definition of the used power range 0-100% which is converted to the corresponding PWM range 75-255. 
-     * In theory the PWM range is 0-255. However in practice with this setup the operating range will be around 75-255 PWM. 
-     * Formula: "PWM value to Motor driver" = "Min PWM" + (("Max PWM" - "Min PWM")/100))* Power%    
-     * Driving direction can be defined by +/- values. Value (+) -> forward and Value(-) -> backward
-     * Note that PWM operating range will be depending on several factors like capacity of batteries, overall system load, etc.
-     * And finally each of the droid setup is different. Each of the devices are unique and requires case-by-case fine tunings.
+     * As an input value the relative definition of the used power range 0-100% which is converted to the 
+     * corresponding PWM range 75-255. In theory the PWM range is 0-255. However in practice with this setup 
+     * the operating range will be around 75-255 PWM. 
+     * Formula: "PWM value to Motor driver" = "Min PWM" + (("Max PWM" - "Min PWM")/100))* Power%) 
+     * Driving direction can be defined by switching polarity value. Value (+) -> forward and Value(-) -> backward. 
+     * Note that PWM operating range is depending on several factors, like capacity of batteries, overall system load 
+     * and well... each of the droid setups are different. The droids are unique and requires fine tunings, case-by-case.
      */
     boolean in1ena = (rightpower < 0)?false:true;
     boolean in2ena = (rightpower < 0)?true:false;
