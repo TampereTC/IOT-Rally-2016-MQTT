@@ -9,9 +9,9 @@ _Default size of the Arduino RX buffer is 64Byte. This setup requires at least 2
 - `<base Arduino folder>\hardware\arduino\avr\cores\arduino\HardwareSerial.h`   
 
 Change the buffer size as described below (valid for Windows OS):  
-https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Hardware/Pictures/rxbuffer.png
+![alt tag] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Hardware/Pictures/rxbuffer.png)
 
-https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Hardware/Pictures/rxbuffer_2.png
+![alt tag] (https://github.com/TampereTC/IOT-Rally-2016-MQTT/blob/master/Hardware/Pictures/rxbuffer_2.png)
 
 
 
