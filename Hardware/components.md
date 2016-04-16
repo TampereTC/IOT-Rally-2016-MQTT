@@ -1,0 +1,21 @@
+### List of component with link to market place    
+- Robot frame + wheels + dc motor	http://www.aliexpress.com/item/New-Motor-Smart-Robot-Car-Chassis-Kit-Speed-Encoder-Battery-Box-For-Arduino-Free-Shipping/1924502066.html   
+- Battery holder 2x3,7	http://www.aliexpress.com/item/Battery-Storage-Case-Plastic-for-2-x-18650-Box-Holder-Black-With-Wire-Lead-Wholesale/32516850632.html    
+- Batteries 3,7v (2pcs)	http://www.aliexpress.com/item/2016-Newest-2-pcs-TR-18650-3-7V-9900mAh-Rechargeable-Li-ion-Battery-for-LED-Flashlight/32613592768.html  
+- Arduino Mega2560	http://www.aliexpress.com/item/Freeshipping-Mega-2560-R3-Mega2560-REV3-ATmega2560-16AU-Board-USB-Cable-compatible-for-arduino-good-quality/1718380594.html    
+- L298N driver	http://www.aliexpress.com/item/New-Dual-H-Bridge-DC-Stepper-Motor-Drive-Controller-Board-Module-L298N-for-Arduino-Free-Shipping/1740954875.html    
+- Breadboard (400)	http://www.aliexpress.com/item/Free-Shipping-Quality-mini-bread-board-breadboard-8-5CM-x-5-5CM-400-holes/32376584287.html    
+- Dupont line	http://www.aliexpress.com/item/Dupont-line-40P-3-pieces-20cm-male-to-male-male-to-female-and-female-to-female/32327756125.html    
+- IR sensor (line tracker) (2pcs)	http://www.aliexpress.com/item/Sensor-For-Arduino-LM393-IR-Infrared-Line-Tracking-Transducer-TCRT5000-Obstacle-Avoidance-Module-Board-Photoelectric-Switch/32591217818.html    
+- Regulator (adjustable)	http://www.aliexpress.com/item/Ultra-small-LM2596-power-supply-module-DC-DC-BUCK-3A-adjustable-buck-module-regulator-ultra-LM2596S/1620458430.html    
+- Ultrasonic distance sensor	http://www.aliexpress.com/item/1-pc-Ultrasonic-Sensor-Module-HC-SR04-Distance-Measuring-Sensor-for-arduino-Promotion/32447503025.html     
+- Wifi unit Esp8266-01	http://www.aliexpress.com/item/Upgraded-version-ESP-01-ESP8266-serial-WIFI-wireless-module-wireless-transceiver-10pcs/32442728090.html     
+- Scruws	http://www.aliexpress.com/item/Wholesale-150pcs-Cheap-Universal-White-High-Quality-M3-Hex-Spacers-Nylon-Screws-Nuts-Washers-Assortment-Standoff/32566460055.html     
+- Switch	http://www.aliexpress.com/item/A25-hot-selling-newest-5pcs-lot-High-Quality-6-Pin-DPDT-ON-ON-Mini-Toggle-Switch/32218031661.html     
+- Compass	http://www.aliexpress.com/item/Free-Shipping-10PCS-GY-271-HMC5883L-module-electronic-compass-compass-module-three-axis-magnetic-field-sensor/1718445649.html     
+- gyro + acc	http://www.aliexpress.com/item/FREE-SHIPPING-10PCS-LOT-MPU-6050-MPU6050-Module-3-Axis-analog-gyro-sensors-3-Axis-Accelerometer/1095345862.html     
+- Buzzer	http://www.aliexpress.com/item/High-Quality-Passive-Buzzer-Module-for-Arduino/32476162157.html    
+- RFID reader	http://www.aliexpress.com/item/1PCS-LOT-RFID-module-RC522-Kits-S50-13-56-Mhz-6cm-With-Tags-SPI-Write-Read/32248716249.html    
+- RTC Time sync	http://www.aliexpress.com/item/Hot-Sale-DS3231-AT24C32-IIC-Precision-RTC-Real-Time-Clock-Memory-Module-For-Arduino-Free-Shipping/32286657514.html    
+- cr2032 (3.3v battery)	http://www.aliexpress.com/item/20-X-CR2032-BR2032-2032-3V-LITHIUM-battery-track-number-shipping-cost/2042203129.html     
+- DHT11 (Tempereture / Humidity sensor)	http://www.aliexpress.com/item/New-DHT11-Temperature-And-Relative-Humidity-Sensor-Module-For-Arduino-Free-Shipping/32455210916.html     
