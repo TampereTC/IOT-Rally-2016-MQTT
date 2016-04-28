@@ -20,4 +20,4 @@ The code can be copied to [codeOrgToRobot.js] and when it is run the robot shoul
 
 [codeOrgToRobot.js]: <codeOrgToRobot.js> 
 [Node-red]: <http://nodered.org/>
-[code.org]: <code.org> 
+[code.org]: <http://code.org> 
