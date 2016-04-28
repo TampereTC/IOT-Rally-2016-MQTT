@@ -1,11 +1,12 @@
-//172.28.172.3
-//client id: esp-link3
-
 msgs = []
+
+//Copy code.org code below
 
 moveForward();
 turnRight();
 turnLeft();
+
+//code.org code ends
 
 sendAllMessages();
 
