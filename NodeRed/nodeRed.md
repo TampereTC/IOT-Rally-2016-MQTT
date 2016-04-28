@@ -8,15 +8,16 @@ To receive data from MQTT add input MQTT node to the flow and configure it. MQTT
 ### Sending commands to robot
 Injection node can be used to triggering data to MQTT server. The message needs to be built in a function node. There is an example of message building in the file [codeOrgToRobot.js]. Obviously a MQTT output node needs to be added to send the data to MQTT server and to the robot. As default the robot listens to data from iot-downlink topic. Again, this can be changed in the Arduino code.  
 
-### Use code.org code to drive robot 
+### Use [code.org] code to drive robot 
 
-In code.org there are coding lessons that produce code like this:
+In [code.org] there are coding lessons that produce code like this:
 ```sh
 moveForward()
 turnLeft()
 turnRight()
 ```
-The code can be copied to [codeOrgToRobot.js] and when it is run the robot should go the same route as the characters in the code.org exercise. It may be necessary to adjust some of the commands in the file. See the robot interface specifications for instructions on the commands.
+The code can be copied to [codeOrgToRobot.js] and when it is run the robot should go the same route as the characters in the [code.org] exercise. It may be necessary to adjust some of the commands in the file. See the robot interface specifications for instructions on the commands.
 
 [codeOrgToRobot.js]: <codeOrgToRobot.js> 
 [Node-red]: <http://nodered.org/>
+[code.org]: <code.org> 
