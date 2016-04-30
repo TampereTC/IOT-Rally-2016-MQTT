@@ -11,25 +11,25 @@ turnLeft();
 sendAllMessages();
 
 function moveForward() {
-    msgs[msgs.length] = {payload: {command: "drive", mdata:[100, 100, 500]}};
+    msgs[msgs.length] = {payload: {command: "drive", mdata:[26, 26, 500]}};
 }
 
 function turnRight() {
-    msgs[msgs.length] = {payload: {command: "drive", mdata:[-100, 100, 500]}};
+    msgs[msgs.length] = {payload: {command: "drive", mdata:[-26, 26, 200]}};
 }
 
 function turnLeft() {
-    msgs[msgs.length] = {payload: {command: "drive", mdata:[100, -100, 500]}};
+    msgs[msgs.length] = {payload: {command: "drive", mdata:[26, -26, 200]}};
 }
 
+var j = 0;
 function sendSingleMessage() {
-    node.send(msgs[global.get("i")]);
-    global.set("i", global.get("i") + 1);
+    node.send(msgs[j]);
+    j++;
 }
 
 function sendAllMessages() {
-    var interval = 2000;
-    global.set("i", 0);
+    var interval = 1000;
     var i = 0;
 
     while(i < msgs.length) {
