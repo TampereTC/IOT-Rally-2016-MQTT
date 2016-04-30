@@ -34,4 +34,4 @@ MQTT configuration should be as follows (for uplink change the topic to iot-upnk
 
 [codeOrgToRobot.js]: <codeOrgToRobot.js> 
 [Node-red]: <http://nodered.org/>
-[code.org]: <code.org> 
+[code.org]: <http://code.org> 
