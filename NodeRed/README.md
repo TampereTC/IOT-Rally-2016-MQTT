@@ -18,6 +18,20 @@ turnRight()
 ```
 The code can be copied to [codeOrgToRobot.js] and when it is run the robot should go the same route as the characters in the [code.org] exercise. It may be necessary to adjust some of the commands in the file. See the robot interface specifications for instructions on the commands.
 
+[Node-red] flow looks something like this:
+
+![alt tag] (Pictures/noderedCodeOrg.png)
+
+  - iot-uplink is an MQTT node that receives data from robot
+  - json is a JSON node
+  - msg.payloads are debug nodes
+  - code.org is a function node where the code from [codeOrgToRobot.js] should be copied
+  - iot-downlink is an MQTT node that sends data to the robot
+
+MQTT configuration should be as follows (for uplink change the topic to iot-upnkin):
+
+![alt tag] (Pictures/noderedMqtt.png)
+
 [codeOrgToRobot.js]: <codeOrgToRobot.js> 
 [Node-red]: <http://nodered.org/>
 [code.org]: <code.org> 
